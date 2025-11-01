@@ -26,24 +26,26 @@ This version was extended and refined by **Helmut Hoerschgl** in 2025.
 
 ## 📦 Installation
 
-1. Copy this folder (`allsky_light_plus`) into your AllSky module directory:
+1. Copy this folder (`allsky_light_plus`) into your AllSky module directory: /home/pi/allsky-modules/
 
 
 2. Install dependencies:
-```bash
+
 pip3 install -r requirements.txt
+
+3. Enable the module in the AllSky Module Manager.
+
+⚙️ Calibration Mode
+
+To record calibration data automatically:
 
 python3 - <<'PY'
 import allsky_light_plus
-allsky_light_plus.calibration_mode(allsky_light_plus.metaData["arguments"], samples=30, delay=60) 
+allsky_light_plus.calibration_mode(allsky_light_plus.metaData["arguments"], samples=30, delay=60)
 PY
 
-This module follows the same open-source license as the original AllSky modules (MIT).
-
-GitHub Repository: https://github.com/trashi63/allsky_light_plus
 
 
----
 
 ### ⚖️ **5️⃣ LICENSE**
 ```text
@@ -71,4 +73,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
