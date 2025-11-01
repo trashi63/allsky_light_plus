@@ -1,0 +1,6 @@
+# Automatically generated dependency log for AllSky Light Plus
+# Author: Helmut Hoerschgl
+# Module: allsky_light_plus
+# Version: v1.2.1
+
+pip3 install adafruit-circuitpython-tsl2591 adafruit-circuitpython-tsl2561
